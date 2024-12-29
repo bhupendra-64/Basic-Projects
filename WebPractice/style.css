@@ -1,0 +1,111 @@
+.head{
+    text-align: center;
+   
+}
+#photo{
+    height: 300px;
+    width: 300px;
+    background-color: #000;
+    margin-left: 38%;
+    background-image: url("/jee\ photo\ 2.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    /* border: 5px solid black; */
+   
+    
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+   
+
+}
+#box1{
+    
+    height: 300px;
+    width: 350px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: #d9d0b4;
+
+}
+#box2{
+    
+    height: 300px;
+    width: 350px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: #d9d0b4;
+
+}
+#box3{
+
+    height: 300px;
+    width: 350px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: #d9d0b4;
+
+}
+ul{
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+#box1:hover{
+    background-color: #879e82;
+    transition-timing-function:ease-in-out;
+    
+    transition-duration: 1s;
+    rotate: Y 20deg;
+    
+
+}
+#box2:hover{
+    background-color: #879e82;
+    transition-timing-function:ease-in-out;
+    
+    transition-duration: 1s;
+    rotate: Y 20deg;
+
+}
+#box3:hover{
+    background-color: #879e82;
+    transition-timing-function:ease-in-out;
+    
+    transition-duration: 1s;
+    rotate: Y 20deg;
+    
+    
+    
+}
+body{
+    background-color: #666b5e;
+}
+#photo:hover{
+    transform: scale(1.5,1.5);
+    transition-duration: 1s;
+    border: none;
+}
+.bottom{
+    margin-top: 100px;
+    /* position: sticky; */
+    bottom: 0%;
+    height: 100px;
+    background-color:#7d6b57;
+    width: 100%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #000;
+}
+a:hover{
+    text-decoration: underline;
+}
