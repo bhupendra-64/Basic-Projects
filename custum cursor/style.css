@@ -1,0 +1,27 @@
+#cursor{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    background-image: url("/glowing-cursor-2.png");
+    background-size: cover;
+    transform: all linear 0.2s;
+    mix-blend-mode: difference;
+
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color:#000F08;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+
+}
+h1{
+    color: #F4FFF8;
+    font-size: 100px;
+
+}
